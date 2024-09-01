@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import Logo from './Logo';
 import { usePathname } from 'next/navigation';
+import { cn } from '@/lib/utils';
 
 const routes = [
 	{
